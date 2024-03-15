@@ -1,0 +1,10 @@
+.input-container {
+    display: flex;
+    padding: 10px;
+    position: relative;
+    left: 15%;
+}
+
+input {
+    width: 479px;
+}

@@ -1,0 +1,11 @@
+<div class="task">
+    <div class="description">
+        <span> {{todo.description}} </span>
+    </div>
+    <div class="done" *ngIf="todo.done">
+        <span>Its doneeee</span>
+    </div>
+    <div class="delete-btn">
+        <button class="delete" #deleteBtn (click)="deleteTask(deleteBtn)">Delete</button>
+    </div>
+</div>

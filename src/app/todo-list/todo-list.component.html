@@ -1,0 +1,5 @@
+<div class="container">
+    <app-valueinput (newTask)="onAddTask($event)"></app-valueinput>
+    <!-- depiction of todos -->
+    <app-singletask *ngFor="let todoes of toDos" [todo]="todoes" (remove)="onRemoveTask($event)"></app-singletask>
+</div>
